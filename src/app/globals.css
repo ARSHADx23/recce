@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-syne: 'Syne', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-space-mono: 'Space Mono', monospace;
+
+  --color-graphite: #1B1B1B;
+  --color-parchment: #FDFBF7;
+  --color-cherry: #D32F2F;
+}
+
+body {
+  background-color: var(--color-graphite);
+  color: var(--color-parchment);
+  font-family: var(--font-inter);
+  font-size: 18.5px;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-syne);
+}
+
+.mono {
+  font-family: var(--font-space-mono);
+}
+
+.text-accent {
+  color: var(--color-cherry);
+}
